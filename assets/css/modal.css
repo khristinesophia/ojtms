@@ -1,0 +1,19 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.modal {
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 600px;
+    font-family: 'Poppins', sans-serif;
+    padding: 30px 50px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+  }
+  
+.modal::backdrop {
+    background: rgb(0 0 0 / 0.4);
+}
+  

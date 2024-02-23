@@ -1,0 +1,14 @@
+.modal{
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    max-width: 500px;
+ } 
+
+.modal::backdrop {
+    background: rgb(0 0 0 / 0.4);
+}
+
+dialog{
+    margin: auto;
+}

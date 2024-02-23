@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+.card-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.card{
+    background-color: white;
+    max-width: 30rem;
+    margin: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.card.adv{
+    background-color: white;
+    max-width: 20rem;
+    margin: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.btn.btn-primary{
+    padding: 10px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.btn.search{
+    border-radius: 4px;
+}
+a{
+    text-decoration: none;
+}
+.card-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.card-header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+.card-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    text-decoration: underline;
+}
+.text{
+    text-decoration: underline;
+}
+p.ac,label.ac{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.boxs{
+    width: 100%;
+    font-size: 24px;
+}
+.header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+.bodys{
+    align-items: center;
+    text-align: center;
+}
+p.create{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.err{
+    color: red;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.search-bar{
+    max-width: 1500px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}

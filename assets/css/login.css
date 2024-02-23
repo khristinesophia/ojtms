@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.background_student{
+    background-image: url('../images/peach.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.background_adviser{
+    background-image: url('../images/purple.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.container h2{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+.container form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .form-group{
+    position: relative;
+    border-bottom: 2px solid #505050;
+    margin: 30px 0;
+}
+.form-group input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.form-group label{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: #2c2c2c;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+.form-group span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #2691d9;
+    transition: .5s;
+}
+.form-group input:focus ~ label,
+.form-group input:valid ~ label{
+    top: -15px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.form-group input:focus ~ span::before,
+.form-group input:valid ~ span::before{
+  width: 100%;
+}
+input[type="submit"]{
+    width: 75%;
+    height: 50px;
+}
+.container p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #000000;
+    font-size: 16px;
+    line-height: 14px;
+    word-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p a{
+    text-decoration: none;
+    color: #2691d9;
+    cursor: pointer;
+}
+p a:hover{
+    text-decoration: underline;
+}
+
+
+.invalid{
+    color: red;
+}

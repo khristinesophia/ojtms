@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+.btn{
+    background: #2691d9;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: "poppins", sans-serif;
+    transition: background 0.2s linear;
+  }
+  
+  .btn:hover{
+    background:  #7A56FF;
+    transition: .5s;
+  }

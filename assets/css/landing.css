@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background-image: url('../images/landing-BGC.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+}
+
+
+input[type="submit"]{
+    width: 75%;
+    height: 50px;
+}
+
+    
+.container p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #000000;
+    font-size: 16px;
+    line-height: 14px;
+    word-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: #2691d9;
+    cursor: pointer;
+    line-height: 1.6;
+}
+a:hover{
+    text-decoration: underline;
+}
+

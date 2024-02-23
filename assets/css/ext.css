@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.container{
+  max-width: 1300px;
+  width: 100%;
+  background-color: rgba(255, 255, 225, 0.5);
+  padding: 60px 60px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.container .title{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+.container .title::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px 0 1px 0;
+}
+.boxs{
+  width: 100%;
+  font-size: 12px;
+  outline: #9b59b6;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  
+}
+form .user-details .dep-box {
+  margin-bottom: 15px;
+  width: 65%;
+}
+form .dep-box span.cont{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .dep-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .dep-box input:focus,
+.user-details .dep-box input:valid{
+  border-color: #9b59b6;
+}
+@media(max-width: 584px){
+.container{
+max-width: 100%;
+}
+form .user-details .dep-box{
+    margin-bottom: 15px;
+    margin-left: 15px;
+    width: 100%;
+  }
+  .content form .user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .user-details::-webkit-scrollbar{
+    width: 10px;
+  }
+  }
+  @media(max-width: 459px){
+  .container .content .category{
+    flex-direction: column;
+  }
+}
